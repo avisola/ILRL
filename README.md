@@ -79,7 +79,7 @@ The entire Cosmos was built using core Object-Oriented Programming (OOP) princip
 ```
 
 ### 🌒To Enter the Realm within the Cosmos🌒:
-Open your IDE in the `src/` folder then `realmcollision` folder and run: 
+Open your IDE in the `src/` folder then `realmcollision/` folder and run: 
 ```
 Main.java
 ```
@@ -317,6 +317,7 @@ The Battlefield:
 
 ## 🌸 Acknowledgment 🌸
 We extend our heartfelt gratitude to our mentor and course instructor, Ma’am <a href="https://github.com/marieemoiselle" target="_blank">Fatima Marie P. Agdon</a>, whose guidance has been nothing short of enchanting. Her patience and wisdom helped us navigate the challenges of object-oriented programming, turning confusion into clarity and allowing us to grow as aspiring developers. For her support and dedication, we are truly thankful. ❀
+
 
 
 
