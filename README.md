@@ -97,23 +97,30 @@ Example:
 
 public abstract class Character {
     // Private fields - data is hidden
-    private int health;
-    private int energy;
-    private int actionPoints;
+    public abstract class Character {
+    protected int health;
+    protected int energy;
+    protected int actionsPoints;
+    protected boolean punchline;
+    protected boolean extra;
     
     // Public getters/setters - controlled access
-    public int getHealth() { return this.health; }
-    public void setHealth(int health) { 
-        if (health >= 0) this.health = health; 
+   public int getHealth() {
+        return this.health;
+    }
+
+    public int getEnergy() {
+        return this.energy;
+    }
+
+    public int getActionsPoints() {
+        return this.actionsPoints;
+    }
+
+    public void setHealth(int health) {
+        this.health = health;
     }
     
-    public int getEnergy() { return this.energy; }
-    public void setEnergy(int energy) {
-        this.energy = Math.min(energy, CharacterStats.getMaxEnergy(this.getClass().getSimpleName()));
-    }
-}
-
-
 ```
 
 ### 🌀 Abstraction
@@ -319,6 +326,7 @@ The Battlefield:
 
 ## 🌸 Acknowledgment 🌸
 We extend our heartfelt gratitude to our mentor and course instructor, Ma’am <a href="https://github.com/marieemoiselle" target="_blank">Fatima Marie P. Agdon</a>, whose guidance has been nothing short of enchanting. Her patience and wisdom helped us navigate the challenges of object-oriented programming, turning confusion into clarity and allowing us to grow as aspiring developers. For her support and dedication, we are truly thankful. ❀
+
 
 
 
