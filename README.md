@@ -148,8 +148,6 @@ public class ArcMage extends Character {
         return 1000; // Base damage
     }
 }
-
-
 ```
 
 
@@ -186,8 +184,6 @@ public class Deadeye extends Character {
         return 10000;
     }
 }
-
-
 ```
 
 ### 🎲 Polymorphism
@@ -236,8 +232,14 @@ public class Valkyrie extends Character {
         return 0;
     }
 }
+```
 
+### ➕ ADDITIONAL:
 
+#### 📓 COMPOSITION:
+`Wanderer` composes `Clone` objects `GameController` composes `characters` and `UI panels`, <br>
+`CharacterPanel` composes custom health/energy bars `BattleLog` composes styled text attributes
+``` java
 //Composition
 // Wanderer HAS Clones (Composition)
 public class Wanderer extends Character {
@@ -261,9 +263,9 @@ public class Wanderer extends Character {
         return super.takeDamage(damage, attacker, isSkill, isUltimate);
     }
 }
-
-
 ```
+
+
 
 
 ## <h2 align = "center"> :･ﾟ✧:･.☽˚｡･ﾟ✧:･.: Sample Output :･ﾟ✧:･.☽˚｡･ﾟ✧:･.: </h2>
